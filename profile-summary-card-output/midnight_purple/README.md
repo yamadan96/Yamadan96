@@ -42,3 +42,23 @@
 ```
 
     
+
+---
+
+![](./3-stats.svg)
+
+```
+![](https://raw.githubusercontent.com/yamadan96/Yamadan96/main/profile-summary-card-output/midnight_purple/3-stats.svg)
+```
+
+    
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/yamadan96/Yamadan96/main/profile-summary-card-output/midnight_purple/4-productive-time.svg)
+```
+
+    
