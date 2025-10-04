@@ -51,3 +51,7 @@ jobs:
           git add README.md profile-summary-card-output
           git commit -m "chore: update profile summary cards and README" || echo "no changes"
           git push
+          
+<!-- PROFILE-SUMMARY-CARDS:START -->
+<!-- (ここはワークフローが自動で上書きします) -->
+<!-- PROFILE-SUMMARY-CARDS:END -->
