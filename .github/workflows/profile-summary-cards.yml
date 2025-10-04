@@ -15,6 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -27,12 +28,19 @@ jobs:
           BRANCH_NAME: "main"
           UTC_OFFSET: 9
           EXCLUDE: ""
-          AUTO_PUSH: false                    # ← ここを false に
+          AUTO_PUSH: false                    # README更新と同時にコミットするため false に
 
-      - name: Ensure README markers exist
+      # README.md にマーカーが無ければ自動で追加
+      - name: Ensure README markers (create if missing)
         run: |
-          grep -q "<!-- PROFILE-SUMMARY-CARDS:START -->" README.md || (echo "Marker START not found"; exit 1)
-          grep -q "<!-- PROFILE-SUMMARY-CARDS:END -->"   README.md || (echo "Marker END not found"; exit 1)
+          if ! grep -q "<!-- PROFILE-SUMMARY-CARDS:START -->" README.md; then
+            cat >> README.md <<'EOF'
+
+<!-- PROFILE-SUMMARY-CARDS:START -->
+<!-- (ここはワークフローが自動で上書きします) -->
+<!-- PROFILE-SUMMARY-CARDS:END -->
+EOF
+          fi
 
       - name: Inject preview markdown into README
         run: |
@@ -51,7 +59,3 @@ jobs:
           git add README.md profile-summary-card-output
           git commit -m "chore: update profile summary cards and README" || echo "no changes"
           git push
-          
-<!-- PROFILE-SUMMARY-CARDS:START -->
-<!-- (ここはワークフローが自動で上書きします) -->
-<!-- PROFILE-SUMMARY-CARDS:END -->
