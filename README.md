@@ -3,7 +3,6 @@
 AIエンジニア / LLM・NLP・機械学習を中心に、プロダクト開発からプロンプトエンジニアリングまで。
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-yamadan96.github.io-3b82f6?style=flat-square&logo=githubpages&logoColor=white)](https://yamadan96.github.io/)
-[![Contact](https://img.shields.io/badge/Contact-Portfolio_Form-10b981?style=flat-square&logo=maildotru&logoColor=white)](https://yamadan96.github.io/#contact)
 
 ---
 
