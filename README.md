@@ -6,23 +6,23 @@ AIエンジニア / LLM・NLP・機械学習を中心に、プロダクト開発
 
 ### 🛠 Tech Stack
 
-**Languages**<br />
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+**Languages / ML**<br />
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**AI / LLM**<br />
-![LLM](https://img.shields.io/badge/-LLM-8A2BE2?style=flat-square) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Prompt Engineering](https://img.shields.io/badge/-Prompt_Engineering-FF6F61?style=flat-square) ![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+**AI**<br />
+![LLM](https://img.shields.io/badge/-LLM-8A2BE2?style=flat-square) ![RAG](https://img.shields.io/badge/-RAG-0F766E?style=flat-square) ![LLM Agents](https://img.shields.io/badge/-LLM_Agents-7C3AED?style=flat-square) ![Computer Vision](https://img.shields.io/badge/-Computer_Vision-B45309?style=flat-square)
 
 **Infra / Tools**<br />
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square) ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### 🚀 Featured Projects
 
 | Project | 概要 |
 |:--|:--|
-| [**arxiv-ingest**](https://github.com/yamadan96/arxiv-ingest) | arXiv の新着論文を毎日自動収集し、構造化された研究ノートに変換する CLI（[PyPI 公開](https://pypi.org/project/arxiv-ingest/)） |
-| [**disaster-app**](https://github.com/yamadan96/disaster-app) | 被災建物の写真から損傷度を判定する WebApp（DINOv2 + LoRA、研究成果の実装） |
 | [**llm-finetune**](https://github.com/yamadan96/llm-finetune) | LoRA をスクラッチ実装し、Qwen2.5-7B を日本語の指示データでファインチューニング |
-| [**paper-survey**](https://github.com/yamadan96/paper-survey) | LLM / VLM / MLOps などの論文サーベイノートを公開するサイト（[Demo](https://yamadan96.github.io/paper-survey/)） |
+| [**vit-from-scratch**](https://github.com/yamadan96/vit-from-scratch) | Vision Transformer を PyTorch でスクラッチ実装し、論文を再現（CIFAR-10 で学習） |
+| [**local-claude-code**](https://github.com/yamadan96/local-claude-code) | ローカル LLM（Ollama / vLLM など）で動くコーディングエージェント CLI。ツール実行・サンドボックス・権限制御を自作（テスト 159 件） |
+| [**disaster-app**](https://github.com/yamadan96/disaster-app) | 被災建物の写真から損傷度を判定する WebApp（研究で作った DINOv2 + LoRA モデルをデプロイ） |
 
 ### 📊 GitHub Stats
 
