@@ -15,6 +15,15 @@ AIエンジニア / LLM・NLP・機械学習を中心に、プロダクト開発
 **Infra / Tools**<br />
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+### 🚀 Featured Projects
+
+| Project | 概要 |
+|:--|:--|
+| [**arxiv-ingest**](https://github.com/yamadan96/arxiv-ingest) | arXiv の新着論文を毎日自動収集し、構造化された研究ノートに変換する CLI（[PyPI 公開](https://pypi.org/project/arxiv-ingest/)） |
+| [**disaster-app**](https://github.com/yamadan96/disaster-app) | 被災建物の写真から損傷度を判定する WebApp（DINOv2 + LoRA、研究成果の実装） |
+| [**llm-finetune**](https://github.com/yamadan96/llm-finetune) | LoRA をスクラッチ実装し、Qwen2.5-7B を日本語の指示データでファインチューニング |
+| [**paper-survey**](https://github.com/yamadan96/paper-survey) | LLM / VLM / MLOps などの論文サーベイノートを公開するサイト（[Demo](https://yamadan96.github.io/paper-survey/)） |
+
 ### 📊 GitHub Stats
 
 <!-- Cards follow the viewer's light/dark theme -->
