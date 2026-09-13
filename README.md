@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-AIエンジニア / LLM・NLP・機械学習を中心に、プロダクト開発からプロンプトエンジニアリングまで。
+AIエンジニアとして、LLM・AIエージェント・Computer Vision のモデル実装からプロダクトへの組み込みまで取り組んでいます。
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-yamadan96.github.io-3b82f6?style=flat-square&logo=githubpages&logoColor=white)](https://yamadan96.github.io/)
 
