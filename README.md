@@ -26,8 +26,17 @@ DINOv2-based disaster damage classification WebApp
 
 ### 📊 GitHub
 
-<!-- Contributions, public repos and account age; regenerated monthly by the workflow. Follows light/dark theme. -->
+<!-- Cards are regenerated monthly by the workflow and follow the viewer's light/dark theme -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/0-profile-details.svg" />
   <img alt="Contributions, public repositories and account age" width="100%" src="./profile-summary-card-output/github/0-profile-details.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img alt="Top languages by repository" width="49%" src="./profile-summary-card-output/github/1-repos-per-language.svg" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" />
+  <img alt="Commits, pull requests, issues and contributed repositories" width="49%" src="./profile-summary-card-output/github/3-stats.svg" />
 </picture>
