@@ -13,18 +13,18 @@ Docker · AWS · GCP · Azure
 ### 🚀 Featured Projects
 
 #### [llm-finetune](https://github.com/yamadan96/llm-finetune)
-LoRA from scratch · Qwen2.5-7B · PyTorch
+LoRA implemented from scratch in PyTorch, fine-tuning Qwen2.5-7B with response-only loss
 
 #### [vit-from-scratch](https://github.com/yamadan96/vit-from-scratch)
-Vision Transformer from scratch · CIFAR-10
+Vision Transformer built from scratch, tested against PyTorch reference ops · CIFAR-10
 
 #### [local-claude-code](https://github.com/yamadan96/local-claude-code)
-Local LLM Coding Agent · Tool Calling · 167 tests
+Coding agent for local LLMs with tool calling, workspace sandbox and permission modes · 167 tests
 
 #### [disaster-app](https://github.com/yamadan96/disaster-app)
-DINOv2-based disaster damage classification WebApp
+Research model (DINOv2 + LoRA) deployed as a Gradio / FastAPI app with low-confidence rejection
 
-### 📊 GitHub
+### 📊 GitHub Activity
 
 <!-- Cards are regenerated monthly by the workflow and follow the viewer's light/dark theme -->
 <picture>
